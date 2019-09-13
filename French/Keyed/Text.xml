@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PositioningEnabledTitle>Positionnement personnalisé de la souris</PositioningEnabledTitle>
+	<PositioningEnabledExplained>Active le positionnement de combat pour les clics / déplacements de votre souris (voir les paramètres ci-dessous)</PositioningEnabledExplained>
+
+	<AchtungModifierTitle>Touche Achtung!</AchtungModifierTitle>
+	<AchtungModifierExplained>Si vous maintenez cette touche enfoncée, les colons sélectionné recevront des commandes de déplacement ou de formation. Une fois maintenu, il permettra aux colons sélectionnés d'être déplacés dans leur formation actuelle à votre curseur en maintenant et en faisant glisser le bouton droit de la souris. Une fois le bouton droit de la souris enfoncé, la touche Achtung! peut être relâchée.
+La formation peut être tournée en utilisant Q et E.</AchtungModifierExplained>
+
+	<ForceCommandMenuTitle>Forcer le menu contextuel</ForceCommandMenuTitle>
+	<ForceCommandMenuExplained>Affiche le menu contextuel au lieu de déplacer les colons</ForceCommandMenuExplained>
+	<ForcedCommandState>Commandé pour travailler jusqu'à la fin de la tâche.</ForcedCommandState>
+
+	<ForceMenuButtonText>Forcer</ForceMenuButtonText>
+
+	<IncreaseForceRadius>Augmenter le rayon</IncreaseForceRadius>
+	<IncreaseForceRadiusDesc>Augmenter la distance de recherche pour le travail forcé (le rayon actuel est {0})</IncreaseForceRadiusDesc>
+	<DecreaseForceRadius>Diminuer le rayon</DecreaseForceRadius>
+	<DecreaseForceRadiusDesc>Diminuer la distance de recherche pour le travail forcé (le rayon actuel est {0})</DecreaseForceRadiusDesc>
+
+	<Notes>Notes</Notes>
+	<Note1>Lorsque vous utilisez Achtung, le menu contextuel contient à la fois: des commandes esquissés et non esquissés</Note1>
+	<Note2>Lors du positionnement des colons non sélectionné le long d'une ligne, un clic gauche les sélectionnera dans leurs positions actuelles</Note2>
+
+	<AchtungModKeyOptionNone>Désactivé</AchtungModKeyOptionNone>
+	<AchtungModKeyOptionAlt>Alt</AchtungModKeyOptionAlt>
+	<AchtungModKeyOptionCtrl>Ctrl</AchtungModKeyOptionCtrl>
+	<AchtungModKeyOptionShift>Shift</AchtungModKeyOptionShift>
+	<AchtungModKeyOptionMeta>Win/Cmd</AchtungModKeyOptionMeta>
+
+	<BreakLevelTitle>Niveau de santé mentale pour le travail</BreakLevelTitle>
+	<BreakLevelExplained>Définit le niveau de santé mentale auquel un colon arrête un travail Achtung donné</BreakLevelExplained>
+	<BreakLevelOptionNone>Ignorer</BreakLevelOptionNone>
+	<BreakLevelOptionMinor>Mineur</BreakLevelOptionMinor>
+	<BreakLevelOptionMajor>Majeur</BreakLevelOptionMajor>
+	<BreakLevelOptionAlmostExtreme>Presque extrême</BreakLevelOptionAlmostExtreme>
+	<BreakLevelOptionExtreme>Extrême</BreakLevelOptionExtreme>
+
+	<HealthLevelTitle>État de santé pour le travail</HealthLevelTitle>
+	<HealthLevelExplained>Définir l'état de santé auquel un colon arrête un travail Achtung donné</HealthLevelExplained>
+	<HealthLevelOptionNone>Ignorer</HealthLevelOptionNone>
+	<HealthLevelOptionShouldBeTendedNow>Devrait être soigné maintenant</HealthLevelOptionShouldBeTendedNow>
+	<HealthLevelOptionPrefersMedicalRest>Soins médicaux</HealthLevelOptionPrefersMedicalRest>
+	<HealthLevelOptionNeedsMedicalRest>Besoin de repos médical</HealthLevelOptionNeedsMedicalRest>
+	<HealthLevelOptionInPainShock>En état de choc</HealthLevelOptionInPainShock>
+
+	<IgnoreForbiddenTitle>Ignorer les choses interdites</IgnoreForbiddenTitle>
+	<IgnoreForbiddenExplained>Ignore les éléments interdits (croix rouges) lors d'un travail forcé</IgnoreForbiddenExplained>
+	<IgnoreRestrictionsTitle>Ignorer les zones restreintes</IgnoreRestrictionsTitle>
+	<IgnoreRestrictionsExplained>Ignorer les restrictions de zone lors d'un travail forcé</IgnoreRestrictionsExplained>
+	<IgnoreAssignmentsTitle>Ignorer les affectations de type de travail</IgnoreAssignmentsTitle>
+	<IgnoreAssignmentsExplained>Ignore les priorités de travail non définies</IgnoreAssignmentsExplained>
+
+	<JobInterruptedLabel>Annulé: {0}</JobInterruptedLabel>
+	<JobInterruptedBreakdown>{0}: {1}</JobInterruptedBreakdown>
+	<JobInterruptedBadHealth>{0} est en mauvais forme</JobInterruptedBadHealth>
+
+	<CleanRoomLabel>Nettoyez cette chambre</CleanRoomLabel>
+	<CleanRoomInfoText>Nettoyez cette chambre à fond</CleanRoomInfoText>
+	<CleanRoomDescription>Nettoyer une pièce jusqu'à ce qu'elle soit complètement propre</CleanRoomDescription>
+	<CleanRoomReport>Nettoyage{0}: {1}</CleanRoomReport>
+
+	<FireFightLabel>Combattre le feu</FireFightLabel>
+	<FireFightInfoText>Combattre un feu</FireFightInfoText>
+	<FireFightDescription>Combat un incendie (même en dehors de la zone de résidence)</FireFightDescription>
+	<FireFightReport>Combattre le feu: {0}</FireFightReport>
+
+	<SowZoneLabel>Semer cette zone / pièce</SowZoneLabel>
+	<SowZoneInfoText>Zone de semis / salle</SowZoneInfoText>
+	<SowZoneDescription>Semer une zone ou une pièce en croissance jusqu'à ce qu'elle soit complètement semée</SowZoneDescription>
+	<SowZoneReport>Semis{0}: {1}</SowZoneReport>
+
+	<AlreadyDoing>(Travail #{0})</AlreadyDoing>
+
+</LanguageData>
